@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Basic Details of Employee:</h1>
+    <form action="Post">
+        <div>
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="username" placeholder="Enter your name">
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+        <div>
+            <label for="subscribe">Subscribe for Job updates</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+        </div>
+        <div>
+            <label for="comment">Comments:</label>
+            <textarea name="comment" id="comment" rows="4" cols="50">
+                Enter your comment here...
+          </textarea>
+        </div>
+        <div>
+            <select name="Designation">
+                <option value="IT support">IT support</option>
+                <option value="Java FSE">Java FSE</option>
+                <option value="Web Development">Web Development</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="submit">
+        </div>
+    </form>
+</body>
+
+</html>
